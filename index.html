@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Грузоперевозки</title>
+    <link rel="stylesheet" href="styles.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&amp;subset=latin,cyrillic"
+        rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<header>
+    <!-- <h1>Грузоперевозки  </h1> -->
+    <nav>
+        <a href="#services">Услуги</a>
+        <a href="#cost-calculator">Калькулятор стоимости</a>
+        <a href="#faq">Вопрос/ответ</a>
+        <a href="#ourWork">Примеры работ</a>
+        <a href="#contacts">Контакты</a>
+    </nav>
+    <div class="burger" onclick="toggleMenu(this)">&#9776;</div>    
+</header>
+<body>
+    <div class="mobile-menu ">
+        <a href="#services">Услуги</a>
+        <a href="#cost-calculator">Калькулятор стоимости</a>
+        <a href="#faq">Вопрос/ответ</a>
+        <a href="#ourWork">Примеры работ</a>
+        <a href="#contacts">Контакты</a>
+    </div>
+    <section id="about">
+        <div class="mainContainer">
+            <div class="aboutImage1 aboutImageAll"></div>
+            
+            <div class="aboutImage2 aboutImageAll"></div>
+            
+            <div class=" aboutImage3 aboutImageAll"></div>
+            
+            <div class="aboutContainer">
+                <div class="aboutText">
+                    <div class="where">
+                        <div class="whereIs"><!--<h2>Сохраняем чистоту с 2020 года</h2>!-->
+                            <h1>Грузоперевозки и работы по уборке территории в Московской области</h1>
+                        </div>
+                        <div class="ourPluses">
+                            <p>Перевозка разной по сложности и назначению мебели</p>
+                            <!-- <p>Приезжаем со своим профессиональным оборудованием</p>
+                            <p>Большая разновидность услуг</p>
+                            <p>Оплата после работ</p>
+                            <p>Работаем с юридическими лицами</p> -->
+                        </div>
+                        <div class="buttonAndArrow">
+                            <div class="onMainButton">
+                                <a href="#contacts"><button class="mainButton">Заказать услугу</button></a>
+                            </div>
+                            
+                            <div class="arrows">
+                                <div class="switch">
+                                    <div class="allSwitch"></div>
+                                    <div class="allSwitch"></div>
+                                    <div class="allSwitch"></div>
+                                </div>
+                                <div class="arrowLeft bothArrow" onclick="leftSlide();">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30.968" height="55.969" viewBox="0 0 30.968 55.969" data-prefix="i6i7nm074">
+                                        <path d="M28.107 55.975L-.015 27.981 28.107-.013l2.857 2.845L5.702 27.981l25.26 25.149z" fill-rule="evenodd" class="path-iv1r71bwn"></path>
+                                    </svg>
+                                </div>
+                                <div class="arrowRight bothArrow" onclick="rightSlide();">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30.968" height="55.969" viewBox="0 0 30.968 55.969" data-prefix="iddnbcwha"><path d="M2.843 55.975L-.014 53.13l25.262-25.149L-.014 2.832 2.843-.013l28.119 27.994z" fill-rule="evenodd" class="path-isj2qjsbh"></path></svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="services">
+        <div class="servicesMainText">
+            <h2>Наши услуги</h2>
+            <p>Мы всегда приезжаем со своим профессиональным оборудованием и учитываем предпочтения каждого клиента</p>
+        </div>
+        <div class="sectionCard">
+            <div class="card" id="card1">
+                <div class="cardImg1 cardImg"></div>
+                <div class="cardText">
+                    <h3>Перевозка мебели</h3>
+                    <p>Осуществим перевозку мебели, а также вывоз мебели после покойных. Гарантируем аккуратность и бережную транспортировку.</p>
+                </div>
+                <div class="cardButton">
+                    <a href="#contacts"><button class="buttonBoth firstButton">Заказать</button></a>
+                    <a href="#cost-calculator"><button class="buttonBoth secondButton">Рассчитать стоимость</button></a>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="cardImg2 cardImg"></div>
+                <div class="cardText">
+                    <h3>Покос травы</h3>
+                    <p>Оказываем услуги по покосу травы на любых участках. Работаем аккуратно, быстро и с заботой о вашей территории.</p>
+                </div>
+                <div class="cardButton">
+                    <a href="#contacts"><button class="buttonBoth firstButton">Заказать</button></a>
+                    <a href="#cost-calculator"><button class="buttonBoth secondButton">Рассчитать стоимость</button></a>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="cardImg3 cardImg"></div>
+                <div class="cardText">
+                    <h3>Уборка снега</h3>
+                    <p>Предоставляем услуги по уборке снега с использованием снегоуборочной машины. Быстро и эффективно очищаем любые участки, обеспечивая порядок и безопасность.</p>
+                </div>
+                <div class="cardButton">
+                    <a href="#contacts"><button class="buttonBoth firstButton">Заказать</button></a>
+                    <a href="#cost-calculator"><button class="buttonBoth secondButton">Рассчитать стоимость</button></a>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+   
+    <section id="cost-calculator">
+        <h2>Калькулятор стоимости</h2>
+        <div class="newForm">
+            <div class="calchead">
+                <div class="calcsvg"> <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg" viewBox="144 144 512 512">
+                        <path
+                            d="M310.043 472.845h-61.86c-13.148 0-23.195 10.054-23.195 23.195v61.86c0 13.148 10.054 23.196 23.195 23.196h61.86c13.148 0 23.195-10.055 23.195-23.196v-61.86c0-13.142-10.054-23.195-23.195-23.195zm7.728 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734zm-7.728-208.778h-61.86c-13.148 0-23.195 10.054-23.195 23.195v61.86c0 13.148 10.054 23.196 23.195 23.196h61.86c13.148 0 23.195-10.055 23.195-23.196v-61.86c0-13.142-10.054-23.195-23.195-23.195zm7.728 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734zm255.176-270.646H232.712c-21.648 0-38.663 17.008-38.663 38.663v402.087c0 21.648 17.009 38.663 38.663 38.663h340.235c21.648 0 38.663-17.009 38.663-38.663V202.206c0-21.648-17.015-38.663-38.663-38.663zm23.195 440.748c0 13.148-10.054 23.195-23.195 23.195H232.712c-13.147 0-23.195-10.054-23.195-23.195V202.204c0-13.147 10.054-23.195 23.195-23.195h340.235c13.147 0 23.195 10.054 23.195 23.195zM557.484 209.94H248.19c-13.148 0-23.195 10.054-23.195 23.195v61.86c0 13.148 10.054 23.196 23.195 23.196h309.293c13.147 0 23.195-10.054 23.195-23.196v-61.86c0-13.147-10.054-23.195-23.195-23.195zm7.728 85.055c0 4.64-3.094 7.734-7.734 7.734H248.185c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h309.293c4.64 0 7.734 3.094 7.734 7.734zM433.764 472.848h-61.86c-13.148 0-23.196 10.054-23.196 23.195v61.86c0 13.148 10.054 23.196 23.196 23.196h61.86c13.147 0 23.195-10.054 23.195-23.196v-61.86c0-13.142-10.054-23.195-23.195-23.195zm7.728 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734zm115.99-208.778h-61.86c-13.147 0-23.195 10.054-23.195 23.195v61.86c0 13.148 10.054 23.196 23.196 23.196h61.86c13.147 0 23.195-10.055 23.195-23.196v-61.86c0-13.142-10.054-23.195-23.195-23.195zm7.729 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734zm-7.728 38.659h-61.86c-13.148 0-23.196 10.054-23.196 23.195v61.86c0 13.148 10.054 23.196 23.196 23.196h61.86c13.147 0 23.195-10.054 23.195-23.196v-61.86c0-13.141-10.054-23.195-23.195-23.195zm7.728 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734zM433.763 349.134h-61.86c-13.148 0-23.196 10.054-23.196 23.195v61.86c0 13.148 10.055 23.196 23.196 23.196h61.86c13.148 0 23.195-10.054 23.195-23.196v-61.86c0-13.142-10.054-23.195-23.195-23.195zm7.728 85.061c0 4.64-3.094 7.734-7.734 7.734h-61.86c-4.64 0-7.734-3.093-7.734-7.734v-61.86c0-4.64 3.093-7.734 7.734-7.734h61.86c4.64 0 7.734 3.094 7.734 7.734z"
+                            style="stroke-width:1.53479886"></path>
+                    </svg>
+                </div>
+                <h3 class="format_header">Калькулятор</h3>
+            </div>
+            <div class="opinion">
+                <div class="firstOpinion mainOpinion">
+                    <label class="label">
+                        <p>Вид услуги</p>
+                        <span name="vid-uslugi">
+                            <select class="select" name="vid-uslugi" id="" aria-required="true" aria-invalid="false">
+                                <option>Выберите вариант</option>
+                                <option value="Перевозка мебели">Перевозка мебели</option>
+                                <option value="Покос травы">Покос травы</option>
+                                <option value="Уборка снега">Уборка снега</option>
+                            </select>
+                        </span>
+                    </label>
+                </div>
+                <div class="secondOpinion mainOpinion">
+                    <label class="label">
+                        <p>Город</p>
+                        <span name="city">
+                            <select class="select"  name="city" id="" aria-required="true" aria-invalid="false">
+                                <option>Выберите вариант</option>
+                                <option value="Егорьевск">Егорьевск</option>
+                                <option value="Коломна">Коломна</option>
+                                <option value="Воскресенск">Воскресенск</option>
+                                <option value="Другое">Другое</option>
+                            </select>
+                        </span>
+                    </label>
+                </div>
+            </div>
+            <div class="slideContainer">
+                <div class="fullSlider">
+                    <span class="textSlider" >1</span>
+                </div>
+                <span class="slider" data-separator="-" data-handle="1" data-min="1" data-max="6" data-default="1">
+                     <input name="inputSlider" type="range" min="1" max="6" step="1" value="1" class="classInputSlider"> </span>
+            </div>
+            <div class="values">
+                <p>от 1 ч</p>
+                <p>до 6 ч</p>
+            </div>
+            <div class="price">
+                <div class="priceText">
+                    <h3>Выберите вид услуги и ваш город</h3>
+                    <div class="cost2"></div>
+                </div>
+            </div>
+            <div class="social">
+                <div class="socialText">
+                    <h3>Поможем с расчётом или дадим консультацию</h3>
+                </div>
+                <div class="socialIcons">
+                    <div class="socialWp">
+                        <div class="icon icon3" target="_blank">
+                            <svg width="20" height="20" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path class="pathPointer"d="M23.993 0C10.763 0 0 10.765 0 24a23.824 23.824 0 0 0 4.57 14.067l-2.99 8.917 9.224-2.948A23.81 23.81 0 0 0 24.007 48C37.237 48 48 37.234 48 24S37.238 0 24.007 0h-.014zm-6.7 12.19c-.466-1.114-.818-1.156-1.523-1.185a13.55 13.55 0 0 0-.804-.027c-.918 0-1.877.268-2.455.86-.705.72-2.454 2.398-2.454 5.841s2.51 6.773 2.849 7.239c.353.465 4.895 7.632 11.947 10.553 5.515 2.286 7.152 2.074 8.407 1.806 1.834-.395 4.133-1.75 4.711-3.386.579-1.637.579-3.034.41-3.33-.17-.296-.636-.465-1.34-.818-.706-.353-4.134-2.046-4.783-2.272-.634-.24-1.24-.155-1.72.522-.677.946-1.34 1.905-1.876 2.483-.423.452-1.115.509-1.693.268-.776-.324-2.948-1.086-5.628-3.47-2.074-1.849-3.484-4.148-3.893-4.84-.41-.705-.042-1.114.282-1.495.353-.438.691-.748 1.044-1.157.352-.41.55-.621.776-1.1.24-.466.07-.946-.1-1.3-.168-.352-1.579-3.795-2.157-5.191z" fill-rule="evenodd"></path></svg>
+                        </div>
+                        <p style="text-align: center;">WhatsApp</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+</section>
+<section id="faq">
+    <div class="faqMainText">
+        <h2>Часто задаваемые вопросы</h2>
+    </div>
+    <div class="faqContainer">
+        <div class="allQuestion">
+            <div class="questionText">
+                <p class="question">Как оформить заказ?</p>
+                <img src="img/icon.png" alt="иконка" class="faqImg">
+            </div>
+            <div class="answer">Для оформления заказа вы можете позвонить нам по номеру +7(xxx)xxx-xx-xx или написать на WhatsApp и описать услугу которая вам интересна.</div>
+        </div>
+        <div class="allQuestion">
+            <div class="questionText">
+                <p class="question">Сколько грузчиков приезжает на перевозку мебели?</p>
+                <img src="img/icon.png" alt="иконка" class="faqImg">
+            </div>
+            <div class="answer">Обычно приезжают два грузчика, но при необходимости можем прислать больше.</div>
+        </div>
+        <div class="allQuestion">
+            <div class="questionText">
+                <p class="question">Когда происходит оплата?</p>
+                <img src="img/icon.png" alt="иконка" class="faqImg">
+            </div>
+            <div class="answer">Оплата происходит по факту выполнения работ, после вашей проверки.</div>
+        </div>
+        <div class="allQuestion">
+            <div class="questionText">
+                <p class="question">Где узнать точную стоимость услуг?</p>
+                <img src="img/icon.png" alt="иконка" class="faqImg">
+            </div>
+            <div class="answer">Точную стоимость услуг можно узнать, позвонив нам по номеру +7(xxx)xxx-xx-xx</div>
+        </div>
+        <div class="allQuestion">
+            <div class="questionText">
+                <p class="question">В каких районах вы оказываете услуги?</p>
+                <img src="img/icon.png" alt="иконка" class="faqImg">
+            </div>
+            <div class="answer">Мы работаем по всей Московской области, но выезжаем мы из Егорьевска и чем ваш объект ближе, тем меньше будет стоимость</div>
+        </div>
+    </div>
+</section>
+<section id="ourWork">
+    <div class="workMainText">
+        <h2>Примеры наших работ</h2>
+    </div>
+    <div class="workContainer">
+        <div class="topImage imageContainer">
+            <div class="widthImage allImage firstImage"></div>
+            <div class="lowWidthImage allImage secondImage"></div>
+        </div>
+        <div class="bottomImage imageContainer">
+            <div class="lowWidthImage allImage thirdImage"></div>
+            <div class="widthImage allImage fourthImage"></div>
+        </div>
+    </div>
+</section>
+<section id="contacts">
+    <div class="contactsMainText">
+        <h2>Контакты</h2>
+    </div>
+    <div class="contactsContainer">
+        <div class="contactsUp">
+            <div class="contactsFirstImage">
+                <div class="contactsFirstImageText">
+                    <p>По любому интересующиму вас вопросу можете написать нам на WhatsApp</p>
+                </div>
+                <div class="contactsWA">
+                    <div class="icon icon3 contactsWAcolor" target="_blank">
+                        <svg width="40" height="40" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path class="pathPointer"d="M23.993 0C10.763 0 0 10.765 0 24a23.824 23.824 0 0 0 4.57 14.067l-2.99 8.917 9.224-2.948A23.81 23.81 0 0 0 24.007 48C37.237 48 48 37.234 48 24S37.238 0 24.007 0h-.014zm-6.7 12.19c-.466-1.114-.818-1.156-1.523-1.185a13.55 13.55 0 0 0-.804-.027c-.918 0-1.877.268-2.455.86-.705.72-2.454 2.398-2.454 5.841s2.51 6.773 2.849 7.239c.353.465 4.895 7.632 11.947 10.553 5.515 2.286 7.152 2.074 8.407 1.806 1.834-.395 4.133-1.75 4.711-3.386.579-1.637.579-3.034.41-3.33-.17-.296-.636-.465-1.34-.818-.706-.353-4.134-2.046-4.783-2.272-.634-.24-1.24-.155-1.72.522-.677.946-1.34 1.905-1.876 2.483-.423.452-1.115.509-1.693.268-.776-.324-2.948-1.086-5.628-3.47-2.074-1.849-3.484-4.148-3.893-4.84-.41-.705-.042-1.114.282-1.495.353-.438.691-.748 1.044-1.157.352-.41.55-.621.776-1.1.24-.466.07-.946-.1-1.3-.168-.352-1.579-3.795-2.157-5.191z" fill-rule="evenodd"></path></svg>
+                    </div>
+                    <p>Написать</p>
+                
+                </div>
+            </div>
+            <div class="contactsSecondImage">
+                <div class="contactSecondImageText">
+                    <p>График работы 
+                        с 8:00 до 20:00 
+                        без выходных</p>
+                </div>
+            </div>
+        </div>
+        <div class="contactsDown">
+            <div class="contactsThirdImage">
+                
+                <div class="contactThirdImageText">
+                    <p>Что бы сделать заказ или уточнить какие-либо тонкости звоните нам</p>
+                </div>
+                <div class="contactThirdImagePhone">
+                    <svg width="40" height="40" style="fill:white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 166.14 166.14" style="enable-background:new 0 0 166.14 166.14;" xml:space="preserve"><g><path d="M120.823,97.621c-2.018-1.54-4.866-1.351-6.661,0.445l-10.754,10.754c-10.932,10.932-30.826-12.095-32.501-13.586 C69.415,93.558,47.08,72.971,57.32,62.732l10.754-10.754c1.795-1.796,1.986-4.643,0.445-6.661L35.444,1.993 c-0.887-1.162-2.233-1.884-3.692-1.982c-1.459-0.098-2.889,0.439-3.923,1.473L8.681,20.633C5.995,23.74-9.608,37.952,8.979,73.239 c12.795,24.29,27.468,40.425,35.61,48.312c7.887,8.141,24.022,22.815,48.311,35.609c35.287,18.587,49.5,2.986,52.605,0.298 l19.149-19.149c1.034-1.033,1.571-2.463,1.474-3.922c-0.098-1.459-0.82-2.805-1.982-3.692L120.823,97.621z M53.465,52.248 L22.488,21.272l8.467-8.467l26.814,35.139L53.465,52.248z M137.7,150.822c-0.059,0.073-12.568,12.18-40.073-2.632 c-8.735-4.704-29.368-16.659-45.766-33.021C35.166,98.512,22.74,77.408,17.95,68.514C3.138,41.009,15.245,28.5,15.318,28.441 l31.867,31.867c-1.204,2.841-2.746,7.135-1.681,12.472c3.294,16.506,34.779,45.886,47.855,47.855 c6.522,0.983,9.632-0.477,12.473-1.681L137.7,150.822z M144.869,143.653l-30.977-30.977l4.304-4.304l35.14,26.815L144.869,143.653z "/></g></svg>
+                      
+                    <p>+7(xxx)xxx-xx-xx</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="footerContainer">
+        <!-- <div class="footerContainerLeft"> -->
+            <div class="footerMenu footerAll footerAllRight">
+                <h3>Меню</h3>
+                <a href="#services">Услуги</a>
+                <a href="#cost-calculator">Калькулятор стоимости</a>
+                <a href="#faq">Вопрос/ответ</a>
+                <a href="#ourWork">Примеры работ</a>
+                <a href="#contacts">Контакты</a>
+            </div>
+            
+            <div class="footerUslugi footerAll footerBottom">
+                <h3>Услуги</h3>
+                <a href="#services">Грузоперевозка</a>
+                <a href="#services">Покос травы</a>
+                <a href="#services">Уборка снега</a>
+            </div>
+        <!-- </div> -->
+        <div class="footerContacts footerAll footerAllLeft">
+            <h3>Контакты</h3>
+            <div class="footerPhone footerAllContacts">
+                <svg width="30" height="30" style="fill:white" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 166.14 166.14" style="enable-background:new 0 0 166.14 166.14;" xml:space="preserve"><g><path d="M120.823,97.621c-2.018-1.54-4.866-1.351-6.661,0.445l-10.754,10.754c-10.932,10.932-30.826-12.095-32.501-13.586 C69.415,93.558,47.08,72.971,57.32,62.732l10.754-10.754c1.795-1.796,1.986-4.643,0.445-6.661L35.444,1.993 c-0.887-1.162-2.233-1.884-3.692-1.982c-1.459-0.098-2.889,0.439-3.923,1.473L8.681,20.633C5.995,23.74-9.608,37.952,8.979,73.239 c12.795,24.29,27.468,40.425,35.61,48.312c7.887,8.141,24.022,22.815,48.311,35.609c35.287,18.587,49.5,2.986,52.605,0.298 l19.149-19.149c1.034-1.033,1.571-2.463,1.474-3.922c-0.098-1.459-0.82-2.805-1.982-3.692L120.823,97.621z M53.465,52.248 L22.488,21.272l8.467-8.467l26.814,35.139L53.465,52.248z M137.7,150.822c-0.059,0.073-12.568,12.18-40.073-2.632 c-8.735-4.704-29.368-16.659-45.766-33.021C35.166,98.512,22.74,77.408,17.95,68.514C3.138,41.009,15.245,28.5,15.318,28.441 l31.867,31.867c-1.204,2.841-2.746,7.135-1.681,12.472c3.294,16.506,34.779,45.886,47.855,47.855 c6.522,0.983,9.632-0.477,12.473-1.681L137.7,150.822z M144.869,143.653l-30.977-30.977l4.304-4.304l35.14,26.815L144.869,143.653z "/></g></svg>
+                      
+                    <p>+7(xxx)xxx-xx-xx</p>
+            </div>
+            <div class="contactsWA2 footerAllContacts">
+                <div class="icon icon3 contactsWAcolor2" target="_blank">
+                    <svg width="40" height="40" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><path class="pathPointer"d="M23.993 0C10.763 0 0 10.765 0 24a23.824 23.824 0 0 0 4.57 14.067l-2.99 8.917 9.224-2.948A23.81 23.81 0 0 0 24.007 48C37.237 48 48 37.234 48 24S37.238 0 24.007 0h-.014zm-6.7 12.19c-.466-1.114-.818-1.156-1.523-1.185a13.55 13.55 0 0 0-.804-.027c-.918 0-1.877.268-2.455.86-.705.72-2.454 2.398-2.454 5.841s2.51 6.773 2.849 7.239c.353.465 4.895 7.632 11.947 10.553 5.515 2.286 7.152 2.074 8.407 1.806 1.834-.395 4.133-1.75 4.711-3.386.579-1.637.579-3.034.41-3.33-.17-.296-.636-.465-1.34-.818-.706-.353-4.134-2.046-4.783-2.272-.634-.24-1.24-.155-1.72.522-.677.946-1.34 1.905-1.876 2.483-.423.452-1.115.509-1.693.268-.776-.324-2.948-1.086-5.628-3.47-2.074-1.849-3.484-4.148-3.893-4.84-.41-.705-.042-1.114.282-1.495.353-.438.691-.748 1.044-1.157.352-.41.55-.621.776-1.1.24-.466.07-.946-.1-1.3-.168-.352-1.579-3.795-2.157-5.191z" fill-rule="evenodd"></path></svg>
+                </div>
+                <p>WhatsApp</p>
+            
+            </div>
+            <p class="footerAllContacts">ya.gers-2014@yandex.ru</p>
+           
+        </div>
+    </div>
+        
+</footer>
+</body>
+
+</html>
